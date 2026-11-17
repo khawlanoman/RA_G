@@ -1,0 +1,16 @@
+[project]
+name = "RAG"
+version = "1.0"
+description = "AI project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.10.6",
+    "tqdm>=4.67.1",
+    "numpy>=1.26.4",
+    "scikit-learn>=1.6.1",
+    "transformers>=4.46.3",
+    "torch>=2.13.0",
+    "flake8>=7.1.2",
+    "mypy>=1.14.1"
+]
