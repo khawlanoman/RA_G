@@ -5,15 +5,12 @@ run:
 	uv run python -m src
 
 clean:
-	uv run python -m pdb -m src
-
-fclean:
 	rm -rf .src/__pycache__
 	rm -rf .mypy_cache
-	rm -rf ./data/output
+	rm -rf ./data/processed/output
 
 fclean: clean
-	rm -rf data/output
+	rm -rf data/processed/output
 
 lint:
 	-python -m mypy ./src\
